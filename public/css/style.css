@@ -1,0 +1,122 @@
+.form-row {
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+.form-row input {
+    float: right;
+    height: 19px;
+    line-height: 19px;
+    margin: 0px;
+    padding: 0px 5px;
+    width: 287px;
+    border: 1px solid #ABADB3;
+}
+
+.reg-form {
+    width: 416px;
+    margin: 0 auto;
+}
+
+.form-row textarea {
+    height: 90px;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 0px 5px;
+    width: 404px;
+    border: 1px solid #ABADB3;
+}
+
+.switch-forms  {
+    padding:5px;
+    height:25px;
+    width:100%;
+    line-height: 10px;
+    background: #337AB7;
+    color:white;
+    border: 3px solid;
+}
+.switch-forms:hover {
+    background:#286090;
+}
+.admin_button  {
+    padding:5px;
+    height:25px;
+    width:25%;
+    line-height: 10px;
+    background: #337AB7;
+    color:white;
+    border: 3px solid;
+}
+.user_button  {
+    padding:5px;
+    height:25px;
+    width:24%;
+    line-height: 10px;
+    background: #337AB7;
+    color:white;
+    border: 3px solid;
+}
+.button  {
+    padding:5px;
+    height:25px;
+    width:100%;
+    line-height: 10px;
+    background: #337AB7;
+    color:white;
+    border: 3px solid;
+}
+.filter_button  {
+    padding:5px;
+    height:25px;
+    width:10%;
+    line-height: 10px;
+    background: #337AB7;
+    color:white;
+    border: 3px solid;
+}
+.button:hover {
+    background:#286090;
+}
+* {
+    font-family:arial;
+    font-size:10pt;
+}
+.userTable {
+    border: 1px solid;
+    margin:auto;
+    width: 70%;
+
+}
+tr{
+    border: 1px solid;
+    text-align: center;
+}
+td{
+    border: 1px solid;
+    text-align: center;
+
+}
+colgroup{
+    border: 1px solid;
+    text-align: center;
+}
+table{
+    padding:15px;
+    margin: auto;
+}
+#messageHolder{
+    width: 400px;
+    height: 200px;
+}
+#filter_container{
+    margin:auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.edit_space{
+    padding:15px;
+    margin: auto;
+    border: 2px;;
+    text-align: center;
+
+}

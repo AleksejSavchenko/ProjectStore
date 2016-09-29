@@ -1,0 +1,24 @@
+{
+  "name": "savchenko",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "me"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "underscore": "^1.8.3",
+    "jquery": "^2.2.3",
+    "requirejs": "^2.2.0",
+    "text": "requirejs-text#^2.0.15"
+  }
+}

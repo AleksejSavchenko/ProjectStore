@@ -1,0 +1,31 @@
+{
+  "name": "savchenko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.thinkmobiles.com:9000/stydy_JS1_March_2016/oleksijsavchenko.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bookshelf": "^0.9.4",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "global": "^4.3.0",
+    "globals": "^9.5.0",
+    "knex": "^0.10.0",
+    "mongoose": "^4.4.16",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "pg": "^4.5.5"
+  }
+}
