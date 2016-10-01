@@ -36,7 +36,7 @@ define(['Backbone',
                     type: 'GET',
                     url: 'http://localhost:3030/user/logout',
                     success: function () {
-                        alert('You loged out');
+                        alert('You logged out');
                         location.reload();
                     },
                     error:function(err){

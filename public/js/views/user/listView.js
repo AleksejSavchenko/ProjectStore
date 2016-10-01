@@ -82,7 +82,7 @@ define(['Backbone',
                 var model = this.collection.get(id);
                 newRole = prompt('Please, set role:');
                 if ($.inArray(newRole, ['user', 'admin']) < 0) {
-                    alert('bad role');
+                    alert('Bad role!');
                     return;
                 }
                 var saveData = {

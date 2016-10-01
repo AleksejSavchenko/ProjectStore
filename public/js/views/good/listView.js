@@ -9,7 +9,7 @@ define(['Backbone',
         'text!templates/good/adminHeader.html'
 
     ],
-    function (Backbone, $, _, ListItemView, EditView, Model, Collection,userTemplate, adminTemplate) {
+    function (Backbone, $, _, ListItemView, EditView, Model, Collection, userTemplate, adminTemplate) {
         var View = Backbone.View.extend({
             el: '#contentHolder',
             contentType: 'good',

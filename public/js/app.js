@@ -1,3 +1,4 @@
+var App = {};
 define([
     'Backbone',
     'jQuery',
@@ -13,6 +14,7 @@ define([
             success: function (model) {
                 App = {
                     name:model.name,
+                    login: model.login,
                     id:model._id,
                     role:model.role
                 };

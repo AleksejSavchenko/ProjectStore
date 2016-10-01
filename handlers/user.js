@@ -227,6 +227,7 @@ var UserHandler = function (db) {
             if (err) {
                 return next(err);
             }
+            console.log(model)
             res.status(200).send(model)
         });
     }
