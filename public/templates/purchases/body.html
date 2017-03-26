@@ -1,0 +1,13 @@
+<% collection.forEach(function(model) { %>
+<tr>
+    <td>
+        <%= model._id || '' %>
+    </td>
+    <td>
+        <%= model.purchases || '' %>
+    </td>
+    <td>
+        <%= model.date || ''  %>
+    </td>
+</tr>
+<% }); %>

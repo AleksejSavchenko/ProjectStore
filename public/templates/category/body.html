@@ -1,0 +1,14 @@
+<% collection.forEach(function(model) { %>
+<tr>
+    <td>
+        <input type="checkbox" id ="<%=model._id %>"/>
+    </td>
+    <td>
+        <%= model.name || '' %>
+    </td>
+    <td>
+        <input type="button" id="edit_button" value="Edit">
+        <input type="button" id="delete_button" value="Delete">
+    </td>
+</tr>
+<% }); %>

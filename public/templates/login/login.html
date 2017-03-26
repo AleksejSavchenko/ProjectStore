@@ -1,0 +1,60 @@
+
+<body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.switch-forms').on('click', function () {
+            $('.auth-form').hide();
+
+            var needed_form_class = $(this).data('form_to_show');
+            $('.'+needed_form_class).show();
+        });
+    });
+</script>
+
+<div style="display:none;" class="register auth-form">
+    <form  class='reg_form reg-form'>
+        <div class='form-row'>
+            <label for='form_reg_name'> Name: </label>
+            <input type='text' id='form_reg_name' name='name'>
+        </div>
+        <div class='form-row'>
+            <label for='form_login'>Login: </label>
+            <input type='text' id='form_reg_login' name='login'>
+        </div>
+
+        <div class='form-row'>
+            <label for='form_pass'>Password: </label>
+            <input type='password' id='form_reg_pass' name='password'>
+        </div>
+        <div class='form-row'>
+            <label for='form_pass'>Role: </label>
+            <input type='checkbox' id='form_reg_role' name='role'>
+        </div>
+        <div id="submit_register" class="button">Register</div>
+        <div data-form_to_show="login" class="switch-forms">Allready have account?</div>
+
+    </form>
+</div>
+<div class="login auth-form">
+    <form class='login_form reg-form'>
+
+        <div class='form-row'>
+            <label for='form_login'>Login: </label>
+            <input type='text' id='form_login' name='login'>
+        </div>
+
+        <div class='form-row'>
+            <label for='form_pass'>Password: </label>
+            <input type='text' id='form_pass' name='pass'>
+        </div>
+
+        <div id="submit_login" class="button">Login</div>
+        <div data-form_to_show="register" class="switch-forms">Register</div>
+
+    </form>
+</div>
+
+</body>
+
+</html>

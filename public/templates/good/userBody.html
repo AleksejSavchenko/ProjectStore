@@ -1,0 +1,19 @@
+<% collection.forEach(function(model) { %>
+<tr>
+    <td>
+        <input type="checkbox" id ="<%=model._id %>"/>
+    </td>
+    <td>
+        <%= model.name || '' %>
+    </td>
+    <td>
+        <%= model.price || ''  %>
+    </td>
+    <td>
+        <%= model.category_id || ''  %>
+    </td>
+    <td>
+        <input type="button" id="add_to_cart" value="AddToCart">
+    </td>
+</tr>
+<% }); %>

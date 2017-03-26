@@ -24,10 +24,12 @@ define(['Backbone',
                 var name = this.$el.find('#form_reg_name').val().trim();
                 var login = this.$el.find('#form_reg_login').val().trim();
                 var password = this.$el.find('#form_reg_pass').val().trim();
+                var role = this.$el.find('#form_reg_role').val().trim();
                 var saveData = {
                     name:name,
                     login:login,
-                    password:password
+                    password:password,
+                    role: userRole
                 };
                 this.model.save(saveData, {
                     wait: true,

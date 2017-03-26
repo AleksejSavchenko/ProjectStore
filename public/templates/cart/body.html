@@ -1,0 +1,20 @@
+<% collection.forEach(function(model) { %>
+<tr>
+    <td>
+        <input type="checkbox" id ="<%=model._id %>"/>
+    </td>
+    <td>
+        <%= model.name || '-------' %>
+    </td>
+    <td>
+        <%= model.quantity|| '-------' %>
+       <input type="text" id = "quantity" placeholder= "enter"  size="5">
+        <input type="button" id="save" value="+/-">
+
+    </td>
+    <td>
+        <input type="button" id="delete" value="Delete">
+    </td>
+</tr>
+
+<% }); %>
